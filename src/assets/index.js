@@ -3,7 +3,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -15,21 +14,41 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
+import reactnative from "./tech/reactnative.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import androidstudio from "./tech/androidstudio.png";
+import appwrite from "./tech/appwrite.png";
+import clion from "./tech/clion.png";
+import cpp from "./tech/cpp.png";
+import eclipse from "./tech/eclipse.png";
+import firebase from "./tech/firebase.png";
+import github from "./tech/github.png";
+import java from "./tech/java.png";
+import kotlin from "./tech/kotlin.png";
+import postman from "./tech/postman.png";
+import regex from "./tech/regex.png";
+import sqlite from "./tech/sqlite.png";
+import vitest from "./tech/vitest.png";
+import vs from "./tech/vs.png";
+import freelance from "./work/freelance.png";
+import gdsc from "./Volunteering/gdsc.png";
+import azsencs from "./Volunteering/azsencs.png";
+import elsakaelectric from "./projects/elsakaelectric.png";
+import aora from "./projects/aora.png";
+import aflammy from "./projects/aflammy.png";
+import mohtadon from "./projects/mohtadon.png";
+import musicplayer from "./projects/musicplayer.png";
+import talkbook from "./projects/talkbook.png";
+import deliveroo from "./projects/deliveroo.png";
+import uber from "./projects/uber.png";
 export {
   logo,
   backend,
@@ -47,16 +66,36 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
+  reactnative,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  androidstudio,
+  appwrite,
+  clion,
+  cpp,
+  eclipse,
+  firebase,
+  java,
+  kotlin,
+  postman,
+  regex,
+  sqlite,
+  vitest,
+  vs,
+  freelance,
+  gdsc,
+  azsencs,
+  elsakaelectric,
+  aora,
+  aflammy,
+  mohtadon,
+  musicplayer,
+  talkbook,
+  deliveroo,
+  uber,
 };

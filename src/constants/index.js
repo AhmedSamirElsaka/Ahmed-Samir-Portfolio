@@ -1,13 +1,11 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
-  reactjs,
+  reactnative,
   redux,
   tailwind,
   nodejs,
@@ -15,14 +13,34 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  androidstudio,
+  vs,
+  vitest,
+  sqlite,
+  regex,
+  postman,
+  kotlin,
+  java,
+  firebase,
+  eclipse,
+  clion,
+  cpp,
+  appwrite,
+  freelance,
+  gdsc,
+  azsencs,
+  elsakaelectric,
+  aora,
+  aflammy,
+  mohtadon,
+  musicplayer,
+  talkbook,
+  deliveroo,
+  uber,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +60,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Android debeveloper",
     icon: web,
   },
   {
     title: "React Native Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -77,28 +87,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -109,63 +103,90 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "android studio",
+    icon: androidstudio,
   },
+  {
+    name: "appwrite",
+    icon: appwrite,
+  },
+  {
+    name: "react native",
+    icon: reactnative,
+  },
+  // {
+  //   name: "firebase",
+  //   icon: firebase,
+  // },
+  // {
+  //   name: "java",
+  //   icon: java,
+  // },
+  {
+    name: "kotlin",
+    icon: kotlin,
+  },
+
+  // {
+  //   name: "sqlite",
+  //   icon: sqlite,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Freelance",
+    company_name: "",
+    icon: freelance,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining Cross Platform applications using React Native and other related technologies.",
+      "Developing and maintaining Native Android applications using Kotlin and other related technologies.",
+      "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+];
+
+const volunteeringExperiences = [
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Head of Java Committee",
+    company_name: "Google DSC Al-azhar University",
+    icon: gdsc,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2023 – June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a team of 20 members, improving their programming skills through workshops",
+      "Developed and conducted a Java programming course for beginners. ",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Technical Support & Java Instructor",
+    company_name: "Google DSC Al-azhar University",
+    icon: gdsc,
+    iconBg: "#383E56",
+    date: "August 2022 - May 2023",
+    points: ["Guided students in fundamental Java programming concepts."],
+  },
+  {
+    title: "Android Technical Member",
+    company_name: "Az-SENCS, Systems and Computer Engineering Exhibition",
+    icon: azsencs,
+    iconBg: "#383E56",
+    date: "November 2021 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Volunteered to expand knowledge in Android development and Teaching Android development to newer students ",
     ],
+  },
+  {
+    title: "	Java Technical Member",
+    company_name: "Az-SENCS, Systems and Computer Engineering Exhibition",
+    icon: azsencs,
+    iconBg: "#383E56",
+    date: "March 2021 - October 2021",
+    points: ["Enhanced knowledge in various Java programming concepts."],
   },
 ];
 
@@ -198,68 +219,273 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Elsaka Electric",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An e-commerce mobile app for selling electrical products such as lamps, wires, plugs, and other electrical items. The app provides a seamless shopping experience, complete with product listings, categorization, cart functionality, and user authentication  ",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NativeWind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe ",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: elsakaelectric,
+    source_code_link:
+      "https://github.com/AhmedSamirElsaka/Elsaka-Electric-React-Native",
   },
   {
-    name: "Job IT",
+    name: "Aora",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "a React Native video-sharing mobile application with real-time features using Appwrite for backend services. The app includes user authentication, media uploads, and dynamic home screen animations, providing a smooth and engaging user experience",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Context Api ",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NativeWind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Lottie ",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: aora,
+    source_code_link: "https://github.com/AhmedSamirElsaka/Aora-React-Native",
   },
   {
-    name: "Trip Guide",
+    name: "Aflammy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed an Android app using TMDB API to provide a comprehensive library of films and TV shows.",
     tags: [
       {
-        name: "nextjs",
+        name: "Android studio",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Kotlin",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TMDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Retrofit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MVI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MVVM",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: aflammy,
+    source_code_link: "https://github.com/AhmedSamirElsaka/AflammyApp",
+  },
+  {
+    name: "Mohtadon",
+    description:
+      "Created a comprehensive Islamic app offering Quran reading, recitation, Islamic radio, prayers, Hadith, Qibla, prayer times, and more.",
+    tags: [
+      {
+        name: "Android studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hilt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Intuit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Room",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin Coroutines",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mohtadon,
+    source_code_link: "https://github.com/mohtadon-team/mohtadon",
+  },
+  {
+    name: "Music Player",
+    description:
+      "Created a sleek and intuitive music player app that allows users to scan, play, and manage local audio files Key features include audio playback, album and artist browsing, playlist creation and editing, search functionality, and audio sharing.",
+    tags: [
+      {
+        name: "Android studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hilt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Intuit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kotlin Coroutines",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: musicplayer,
+    source_code_link: "https://github.com/AhmedSamirElsaka/Music-Player",
+  },
+  {
+    name: "TalkBook",
+    description:
+      "Developed TalkBook an Android application that serves as a comprehensive PDF reader with advanced features.Implemented secure user authentication, robust PDF reading interface, and text-to-speech (TTS) integration for converting text from PDFs into audio.",
+    tags: [
+      {
+        name: "Android studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hilt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Intuit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TTS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin Coroutines",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: talkbook,
+    source_code_link: "https://github.com/AhmedSamirElsaka/TalkBook",
+  },
+  {
+    name: "Deliveroo Clone",
+    description:
+      "A clone of Deliveroo with functionalities like restaurant listing and order tracking",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Navigation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Map Integration",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Google Direction API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deliveroo,
+    source_code_link: "https://github.com/AhmedSamirElsaka/Deliveroo-Clone",
+  },
+  {
+    name: "Uber Clone",
+    description: "A transportation app mimicking Uber's key features.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Navigation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Map Integration",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NativeWind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: uber,
+    source_code_link:
+      "https://github.com/AhmedSamirElsaka/Uber-Clone-React-Native",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  volunteeringExperiences,
+};
