@@ -40,7 +40,7 @@ import vitest from "./tech/vitest.png";
 import vs from "./tech/vs.png";
 import freelance from "./work/freelance.png";
 import gdsc from "./volunteering/gdsc.png";
-import azsencs from "./Volunteering/azsencs.png";
+import azsencs from "./volunteering/azsencs.png";
 import elsakaelectric from "./projects/elsakaelectric.png";
 import aora from "./projects/aora.png";
 import aflammy from "./projects/aflammy.png";
