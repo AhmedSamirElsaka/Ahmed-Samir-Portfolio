@@ -39,7 +39,7 @@ import sqlite from "./tech/sqlite.png";
 import vitest from "./tech/vitest.png";
 import vs from "./tech/vs.png";
 import freelance from "./work/freelance.png";
-import gdsc from "./Volunteering/gdsc.png";
+import gdsc from "./volunteering/gdsc.png";
 import azsencs from "./Volunteering/azsencs.png";
 import elsakaelectric from "./projects/elsakaelectric.png";
 import aora from "./projects/aora.png";
