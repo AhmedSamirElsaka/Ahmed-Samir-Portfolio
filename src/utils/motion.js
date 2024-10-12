@@ -1,4 +1,13 @@
+const isMobile = window.innerWidth <= 768;
+
 export const textVariant = (delay) => {
+  if (isMobile) {
+    return {
+      hidden: {},
+      show: {},
+    };
+  }
+
   return {
     hidden: {
       y: -50,
@@ -17,10 +26,21 @@ export const textVariant = (delay) => {
 };
 
 export const fadeIn = (direction, type, delay, duration) => {
+  const mobileAdjustment = isMobile ? 50 : 100;
   return {
     hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+      x:
+        direction === "left"
+          ? mobileAdjustment
+          : direction === "right"
+          ? -mobileAdjustment
+          : 0,
+      y:
+        direction === "up"
+          ? mobileAdjustment
+          : direction === "down"
+          ? -mobileAdjustment
+          : 0,
       opacity: 0,
     },
     show: {
@@ -36,7 +56,6 @@ export const fadeIn = (direction, type, delay, duration) => {
     },
   };
 };
-
 export const zoomIn = (delay, duration) => {
   return {
     hidden: {

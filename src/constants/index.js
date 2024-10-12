@@ -69,7 +69,7 @@ const services = [
   },
 ];
 
-const technologies = [
+const mainTechnologies = [
   {
     name: "HTML 5",
     icon: html,
@@ -82,6 +82,24 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name: "react native",
+    icon: reactnative,
+  },
+  {
+    name: "android studio",
+    icon: androidstudio,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "kotlin",
+    icon: kotlin,
+  },
+];
+const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
@@ -102,35 +120,21 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "android studio",
-    icon: androidstudio,
-  },
+
   {
     name: "appwrite",
     icon: appwrite,
   },
+
   {
-    name: "react native",
-    icon: reactnative,
-  },
-  // {
-  //   name: "firebase",
-  //   icon: firebase,
-  // },
-  // {
-  //   name: "java",
-  //   icon: java,
-  // },
-  {
-    name: "kotlin",
-    icon: kotlin,
+    name: "firebase",
+    icon: firebase,
   },
 
-  // {
-  //   name: "sqlite",
-  //   icon: sqlite,
-  // },
+  {
+    name: "sqlite",
+    icon: sqlite,
+  },
 ];
 
 const experiences = [
@@ -488,4 +492,5 @@ export {
   testimonials,
   projects,
   volunteeringExperiences,
+  mainTechnologies,
 };
