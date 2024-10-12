@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.75}
-        position={isMobile ? [0, -5, -1.5] : [0, -3.75, -1.5]}
+        scale={isMobile ? 1.5 : 1.5}
+        position={isMobile ? [0, -5.5, -2.2] : [0, -3.75, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -60,6 +60,7 @@ const ComputersCanvas = () => {
       dpr={[1, 4]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      // className={"bg-white items-center justify-center"}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
