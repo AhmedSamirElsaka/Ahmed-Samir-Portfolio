@@ -71,6 +71,16 @@ const services = [
 
 const mainTechnologies = [
   {
+    name: "react native",
+    icon: reactnative,
+  },
+  {
+    name: "android studio",
+    icon: androidstudio,
+  },
+];
+const technologies = [
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -83,14 +93,6 @@ const mainTechnologies = [
     icon: javascript,
   },
   {
-    name: "react native",
-    icon: reactnative,
-  },
-  {
-    name: "android studio",
-    icon: androidstudio,
-  },
-  {
     name: "java",
     icon: java,
   },
@@ -98,8 +100,6 @@ const mainTechnologies = [
     name: "kotlin",
     icon: kotlin,
   },
-];
-const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
