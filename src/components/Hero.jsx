@@ -2,8 +2,24 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  // Determine if it's mobile
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -25,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {!isMobile && <ComputersCanvas />}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
